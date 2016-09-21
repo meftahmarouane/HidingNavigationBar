@@ -281,12 +281,15 @@
 				TargetAttributes = {
 					6A412A2A1BB1CBA4001C3F67 = {
 						CreatedOnToolsVersion = 7.0;
+						LastSwiftMigration = 0800;
 					};
 					6A6570E71AF3F71100A6CFE4 = {
 						CreatedOnToolsVersion = 6.3.1;
+						LastSwiftMigration = 0800;
 					};
 					6A6570FE1AF3F71100A6CFE4 = {
 						CreatedOnToolsVersion = 6.3.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = 6A6570E71AF3F71100A6CFE4;
 					};
 				};
@@ -423,6 +426,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.hearst.HidingNavigationBar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -444,6 +448,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.hearst.HidingNavigationBar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -539,6 +544,7 @@
 				INFOPLIST_FILE = HidingNavigationBarSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -550,6 +556,7 @@
 				INFOPLIST_FILE = HidingNavigationBarSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
@@ -565,6 +572,7 @@
 				INFOPLIST_FILE = HidingNavigationBarSampleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HidingNavigationBarSample.app/HidingNavigationBarSample";
 			};
 			name = Debug;
@@ -577,6 +585,7 @@
 				INFOPLIST_FILE = HidingNavigationBarSampleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HidingNavigationBarSample.app/HidingNavigationBarSample";
 			};
 			name = Release;
